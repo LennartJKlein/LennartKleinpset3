@@ -4,7 +4,8 @@ An android restaurant app for Ye Old Barn. Users can see the menu of the restaur
 
 ![Ye Old Barn - begin](/docs/screenshot-menu.png?raw=true "Ye Old Barn - menu")
 ![Ye Old Barn - words](/docs/screenshot-order.png?raw=true "Ye Old Barn - order")
-![Ye Old Barn - result](/docs/screenshot-about.png?raw=true "Mad Libs - about")
+![Ye Old Barn - placed](/docs/screenshot-placed.png?raw=true "Ye Old Barn - placed")
+![Ye Old Barn - result](/docs/screenshot-about.png?raw=true "Ye Old Barn - about")
 
 ## Getting Started
 
