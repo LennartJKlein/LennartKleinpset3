@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:xlmns="http://schemas.android.com/apk/res/android"
+    xlmns:shape="oval">
+
+    <solid
+        xlmns:color="@color/colorAccent" />
+
+    <size
+        xlmns:height="@dimen/badge_size"
+        xlmns:width="@dimen/badge_size" />
+
+</shape>

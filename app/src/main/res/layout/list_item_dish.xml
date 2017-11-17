@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dish_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/dish_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_image"/>
+
+    <TextView
+        android:id="@+id/dish_name"
+        android:text="@string/dish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"
+        android:paddingStart="4dp"
+        android:paddingEnd="5dp"
+        android:layout_marginEnd="@dimen/list_icon_spacing"
+        android:layout_alignTop="@+id/dish_image"
+        android:layout_toEndOf="@+id/dish_image" />
+
+    <TextView
+        android:id="@+id/dish_description"
+        android:text="@string/dish_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingStart="4dp"
+        android:paddingEnd="5dp"
+        android:textSize="12sp"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_marginEnd="@dimen/list_icon_spacing"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@+id/dish_name"
+        android:layout_alignStart="@+id/dish_name"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/dish_price"
+        android:text="@string/dish_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+        android:paddingStart="4dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="12sp"
+        android:layout_marginEnd="@dimen/list_icon_spacing"
+        android:layout_below="@+id/dish_description"
+        android:layout_alignStart="@+id/dish_description" />
+
+    <ImageButton
+        android:id="@+id/dish_order"
+        android:layout_width="@dimen/list_icon_size"
+        android:layout_height="@dimen/list_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_add_shopping_cart_24dp"
+        android:background="?attr/selectableItemBackgroundBorderless" />
+
+</RelativeLayout>
