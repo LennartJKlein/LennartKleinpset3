@@ -1,4 +1,4 @@
-# ![Ye Old Barn - icon](/docs/app-icon.png?raw=true "Ye Old Barn - icon") Ye Old Barn
+# ![Ye Old Barn - icon](/docs/app-ico.png?raw=true "Ye Old Barn - icon") Ye Old Barn
 
 An android restaurant app for Ye Old Barn. Users can see the menu of the restaurant, place an order and receive the needed time to prepare it.
 
